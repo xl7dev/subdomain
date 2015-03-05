@@ -9,7 +9,7 @@
 # input from command-line becomes domain to test
 domain=$1
 
-#run as bash enumall.sh paypal.com
+#sh enumall.sh google.com
 
 #timestamp
 stamp=$(date +"%m_%d_%Y")
