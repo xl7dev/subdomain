@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Subdomain enumeration script that creates/uses a dynamic resource script for recon-ng.
-# only 1 module needs api’s (/api/google_site) find instructions for that on the wiki.
+# only 1 module needs api's (/api/google_site) find instructions for that on the wiki.
 # Or you can comment out that module.
 # uses google scraping, bing scraping, baidu scraping, netcraft, and bruteforces to find subdomains.
 # by @xl7dev
