@@ -50,7 +50,7 @@ echo "run" >> $domain$stamp.resource
 echo "use reporting/csv" >> $domain$stamp.resource
 echo "set FILENAME /home/xl7/$domain.csv" >> $domain$stamp.resource
 echo "run" >> $domain$stamp.resource
-echo "shell cat $domain.csv | awk -F '\"' '{print $2}' > $domain.txt" >> $domain$stamp.resource
+echo "shell cat $domain.csv | awk -F '\"' '{print \$2}' > $domain.txt" >> $domain$stamp.resource
 echo "shell rm $domain.csv" >> $domain$stamp.resource
 sleep 1
 
