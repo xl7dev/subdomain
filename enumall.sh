@@ -4,7 +4,7 @@
 # only 1 module needs api’s (/api/google_site) find instructions for that on the wiki.
 # Or you can comment out that module.
 # uses google scraping, bing scraping, baidu scraping, netcraft, and bruteforces to find subdomains.
-# by @xl7
+# by @xl7dev
 
 # input from command-line becomes domain to test
 domain=$1
